@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Helloworld</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="start_collecting_data">Start Collecting Data</string>
+    <string name="stop_collecting_data">Stop Collecting Data</string>
+    <string name="send_to_phone">Send to Phone</string>
+    <string name="sending_to_phone">Sending data to phone…</string>
+    <string name="send_to_phone_result">Sent %1$d file(s), %2$d failed</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="reset_data_confirm_message">Delete all collected sensor and audio data from this watch? This can\'t be undone.</string>
+    <string name="reset_data_blocked">Stop collecting before resetting data</string>
+    <string name="reset_data_blocked_syncing">Wait for the phone sync to finish before resetting data</string>
+    <string name="reset_data_success">All collected data cleared</string>
+    <string name="reset_data_failed">Failed to clear some data</string>
+</resources>
