@@ -1,8 +1,8 @@
-# Smartwatch Sensor Data Collector (Maintained Fork)
+# Wear OS Smartwatch Sensor & Audio Data Collector
 
-An Android **Wear OS** app that collects data from a smartwatch's sensors,
-stores it locally in SQLite, and records audio from the microphone — for later
-analysis (e.g. activity/health datasets).
+An Android **Wear OS** app for collecting smartwatch motion, heart rate, step, and environmental sensor readings, alongside microphone audio, to build datasets for offline analysis. Available sensors depend on the device and granted permissions.
+
+The current collector saves timestamped sensor readings in per-session CSV files and audio in WAV files. This repository builds on an existing open-source project; its original authorship and fork history are documented below.
 
 > **About this fork**
 > This repository is based on the original project by Mahesh Molabanti.
